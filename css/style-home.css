@@ -1,0 +1,63 @@
+.titulo-principal{
+    padding-left: 30px;
+    
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background:#cccccc;
+    padding: 20px;
+}
+
+.titulo-centrado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+em strong{ /* combinación de etique, que es más especifico*/
+    color: red;
+    /* hexadecima, es la combinacion de los números 0-9 y los seis primeras letras A,B,C,D,E,F
+     _ _ _ _ _ _  ES LA COMBINACIÓN  rr gg bb por eso es que se le llama rgb(rojo, verde, azul)
+     
+     en Donde 0= menor intesidad y 255= máxima intensidad*/
+}
+
+#mision{ /* con la referencia # estamos apuntando al id de una etiqueta en especifico*/
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #ffffff;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Para accede a una class se utiliza .nombreclass */
+.items{
+    font-style: italic;
+}
+
+ul{/* listas desordenadas  */
+    display: inline-block; /*   */
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagendigerenciales{
+    width: 50%;
+}
+
+
+
+
